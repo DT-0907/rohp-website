@@ -51,12 +51,16 @@ const SplitText: React.FC<SplitTextProps> = ({
   }, [onLetterAnimationComplete])
 
   useEffect(() => {
-    if (document.fonts.status === "loaded") {
-      setFontsLoaded(true)
-    } else {
-      document.fonts.ready.then(() => {
+    if (typeof document !== "undefined") {
+      if (document.fonts.status === "loaded") {
         setFontsLoaded(true)
-      })
+      } else {
+        document.fonts.ready.then(() => {
+          setFontsLoaded(true)
+        })
+      }
+    } else {
+      setFontsLoaded(true)
     }
   }, [])
 
