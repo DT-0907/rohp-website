@@ -57,9 +57,7 @@ export function QnAForm() {
         <CardContent className="pt-6">
           <div className="text-center">
             <CheckCircle2 className="mx-auto h-12 w-12 text-green-600 mb-3" />
-            <h3 className="text-xl font-bold mb-2" style={{ color: "#003262" }}>
-              Question Submitted!
-            </h3>
+            <h3 className="text-xl font-bold mb-2 text-berkeley">Question Submitted!</h3>
             <p className="text-sm text-muted-foreground">
               Thank you! We'll address your question during the Q&A session.
             </p>
@@ -72,7 +70,7 @@ export function QnAForm() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle style={{ color: "#003262" }}>Submit a Q&A Question</CardTitle>
+        <CardTitle className="text-berkeley">Submit a Q&A Question</CardTitle>
         <CardDescription>Optional: Submit questions to be addressed during the program</CardDescription>
       </CardHeader>
       <CardContent>

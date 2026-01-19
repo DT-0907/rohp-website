@@ -46,19 +46,21 @@
 
 .dark {
   --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
+  /* make all base text nearly white in dark mode */
+  --foreground: oklch(0.98 0 0);
   --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
+  --card-foreground: oklch(0.98 0 0);
   --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
+  --popover-foreground: oklch(0.98 0 0);
+  /* light, saturated blue for primary / highlight in dark mode */
+  --primary: oklch(0.75 0.12 255);
+  --primary-foreground: oklch(0.15 0 0);
+  --secondary: oklch(0.22 0 0);
+  --secondary-foreground: oklch(0.98 0 0);
+  --muted: oklch(0.22 0 0);
+  --muted-foreground: oklch(0.8 0 0);
+  --accent: oklch(0.75 0.12 255);
+  --accent-foreground: oklch(0.15 0 0);
   --destructive: oklch(0.396 0.141 25.723);
   --destructive-foreground: oklch(0.637 0.237 25.331);
   --border: oklch(0.269 0 0);
@@ -160,7 +162,31 @@ html {
   color: white;
 }
 
+.dark .berkeley-blue {
+  /* lighter Berkeley blue panel/button in dark mode */
+  background-color: #1f4f9c;
+  color: #f9fbff;
+}
+
 .california-gold {
   background-color: #fdb515;
   color: #003262;
+}
+
+/* Berkeley brand text colors that adapt to theme */
+.text-berkeley {
+  color: #003262;
+}
+
+.dark .text-berkeley {
+  /* lighter blue for dark mode headings/highlights */
+  color: #7fb5ff;
+}
+
+.icon-berkeley {
+  color: #003262;
+}
+
+.dark .icon-berkeley {
+  color: #7fb5ff;
 }

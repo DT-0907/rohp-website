@@ -23,9 +23,7 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <div className="text-xl font-bold" style={{ color: "#003262" }}>
-              ROHP
-            </div>
+            <div className="text-xl font-bold text-berkeley">ROHP</div>
           </Link>
 
           {/* Desktop Navigation */}

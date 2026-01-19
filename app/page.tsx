@@ -103,7 +103,7 @@ export default function HomePage() {
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-4xl">
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl text-center" style={{ color: "#003262" }}>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl text-center text-berkeley">
               About ROHP
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed text-center mb-8">
@@ -114,9 +114,7 @@ export default function HomePage() {
             <div className="grid gap-4 md:grid-cols-2">
               <Card className="border-2">
                 <CardContent className="pt-6">
-                  <h3 className="mb-3 text-xl font-bold" style={{ color: "#003262" }}>
-                    Who It's For
-                  </h3>
+                  <h3 className="mb-3 text-xl font-bold text-berkeley">Who It's For</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Regents' and Chancellor's Scholarship candidates who want to explore Berkeley before making their
                     college decision.
@@ -125,9 +123,7 @@ export default function HomePage() {
               </Card>
               <Card className="border-2">
                 <CardContent className="pt-6">
-                  <h3 className="mb-3 text-xl font-bold" style={{ color: "#003262" }}>
-                    Benefits
-                  </h3>
+                  <h3 className="mb-3 text-xl font-bold text-berkeley">Benefits</h3>
                   <p className="text-muted-foreground leading-relaxed">
                     Meet faculty, tour campus, connect with current scholars, and experience authentic student life at
                     Cal.
@@ -142,20 +138,16 @@ export default function HomePage() {
       {/* Three Pillars Section */}
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-3xl font-bold md:text-4xl text-center" style={{ color: "#003262" }}>
-            Program Highlights
-          </h2>
+          <h2 className="mb-12 text-3xl font-bold md:text-4xl text-center text-berkeley">Program Highlights</h2>
           <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
             <Card className="text-center border-2 hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="mb-4 flex justify-center">
-                  <div className="rounded-full p-4" style={{ backgroundColor: "#FDB515" }}>
-                    <Lightbulb className="h-8 w-8" style={{ color: "#003262" }} />
+                  <div className="rounded-full p-4 california-gold">
+                    <Lightbulb className="h-8 w-8 icon-berkeley" />
                   </div>
                 </div>
-                <h3 className="mb-3 text-2xl font-bold" style={{ color: "#003262" }}>
-                  Experience
-                </h3>
+                <h3 className="mb-3 text-2xl font-bold text-berkeley">Experience</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Live like a Berkeley student. Stay overnight in the dorms, attend events, and explore campus life
                   firsthand.
@@ -166,13 +158,11 @@ export default function HomePage() {
             <Card className="text-center border-2 hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="mb-4 flex justify-center">
-                  <div className="rounded-full p-4" style={{ backgroundColor: "#FDB515" }}>
-                    <Users className="h-8 w-8" style={{ color: "#003262" }} />
+                  <div className="rounded-full p-4 california-gold">
+                    <Users className="h-8 w-8 icon-berkeley" />
                   </div>
                 </div>
-                <h3 className="mb-3 text-2xl font-bold" style={{ color: "#003262" }}>
-                  Interact
-                </h3>
+                <h3 className="mb-3 text-2xl font-bold text-berkeley">Interact</h3>
                 <p className="text-muted-foreground leading-relaxed">
                   Connect with current scholars, meet faculty speakers, and build lasting relationships with fellow
                   prospective students.
@@ -183,11 +173,11 @@ export default function HomePage() {
             <Card className="text-center border-2 hover:shadow-lg transition-shadow">
               <CardContent className="pt-8 pb-6">
                 <div className="mb-4 flex justify-center">
-                  <div className="rounded-full p-4" style={{ backgroundColor: "#FDB515" }}>
-                    <Compass className="h-8 w-8" style={{ color: "#003262" }} />
+                  <div className="rounded-full p-4 california-gold">
+                    <Compass className="h-8 w-8 icon-berkeley" />
                   </div>
                 </div>
-                <h3 className="mb-3 text-2xl font-bold" style={{ color: "#003262" }}>
+                <h3 className="mb-3 text-2xl font-bold text-berkeley">
                   Discover
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
@@ -202,8 +192,8 @@ export default function HomePage() {
 
       {/* Video Showcase Section */}
       <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <h2 className="mb-12 text-3xl font-bold md:text-4xl text-center" style={{ color: "#003262" }}>
+          <div className="container mx-auto px-4">
+          <h2 className="mb-12 text-3xl font-bold md:text-4xl text-center text-berkeley">
             See ROHP in Action
           </h2>
           <div className="grid gap-8 md:grid-cols-2 max-w-6xl mx-auto">
@@ -259,7 +249,7 @@ export default function HomePage() {
       <section className="py-20 bg-muted/30">
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
-            <h2 className="mb-6 text-3xl font-bold md:text-4xl" style={{ color: "#003262" }}>
+            <h2 className="mb-6 text-3xl font-bold md:text-4xl text-berkeley">
               Ready to Experience Berkeley?
             </h2>
             <p className="mb-8 text-lg text-muted-foreground leading-relaxed">

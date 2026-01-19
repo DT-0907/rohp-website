@@ -8,9 +8,7 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           {/* About */}
           <div>
-            <h3 className="mb-4 text-lg font-bold" style={{ color: "#003262" }}>
-              Regents' Overnight Host Program
-            </h3>
+            <h3 className="mb-4 text-lg font-bold text-berkeley">Regents' Overnight Host Program</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Welcome to the Golden Bear family. Experience UC Berkeley through the eyes of current students.
             </p>
@@ -18,9 +16,7 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="mb-4 text-lg font-bold" style={{ color: "#003262" }}>
-              Quick Links
-            </h3>
+            <h3 className="mb-4 text-lg font-bold text-berkeley">Quick Links</h3>
             <div className="flex flex-col gap-2 text-sm">
               <Link href="/agenda" className="hover:text-[#FDB515] transition-colors">
                 Program Agenda
@@ -39,9 +35,7 @@ export function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="mb-4 text-lg font-bold" style={{ color: "#003262" }}>
-              Contact Us
-            </h3>
+            <h3 className="mb-4 text-lg font-bold text-berkeley">Contact Us</h3>
             <div className="text-sm text-muted-foreground leading-relaxed">
               <p className="mb-2">
                 <a href="mailto:contact@rohp.berkeley.edu" className="hover:text-[#FDB515] transition-colors">

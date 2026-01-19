@@ -24,9 +24,7 @@ export default function HousingPage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-5xl">
             <FadeIn>
-              <h2 className="mb-6 text-3xl font-bold text-center" style={{ color: "#003262" }}>
-                The Units
-              </h2>
+              <h2 className="mb-6 text-3xl font-bold text-center text-berkeley">The Units</h2>
               <p className="mb-8 text-center text-muted-foreground leading-relaxed max-w-3xl mx-auto">
                 Unit 2 and Unit 3 are the heart of freshman residential life at Berkeley. These traditional residence
                 halls offer a vibrant community experience with easy access to campus. Join Denise and Anh-Thu as they
@@ -47,9 +45,7 @@ export default function HousingPage() {
                     />
                   </div>
                   <CardContent className="pt-4">
-                    <h3 className="text-lg font-bold" style={{ color: "#003262" }}>
-                      Unit 2 Tour
-                    </h3>
+                    <h3 className="text-lg font-bold text-berkeley">Unit 2 Tour</h3>
                     <p className="text-sm text-muted-foreground">Explore the common areas and student rooms</p>
                   </CardContent>
                 </Card>
@@ -67,9 +63,7 @@ export default function HousingPage() {
                     />
                   </div>
                   <CardContent className="pt-4">
-                    <h3 className="text-lg font-bold" style={{ color: "#003262" }}>
-                      Unit 3 Tour
-                    </h3>
+                    <h3 className="text-lg font-bold text-berkeley">Unit 3 Tour</h3>
                     <p className="text-sm text-muted-foreground">See the dining halls and study spaces</p>
                   </CardContent>
                 </Card>
@@ -78,8 +72,8 @@ export default function HousingPage() {
 
             <FadeIn delay={0.4}>
               <Card className="bg-muted/30">
-                <CardContent className="pt-6">
-                  <h3 className="mb-3 text-xl font-bold" style={{ color: "#003262" }}>
+                  <CardContent className="pt-6">
+                  <h3 className="mb-3 text-xl font-bold text-berkeley">
                     About The Units
                   </h3>
                   <ul className="space-y-2 text-muted-foreground">

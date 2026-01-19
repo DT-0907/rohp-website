@@ -31,11 +31,9 @@ export function CommitteeMemberModal({ member, isOpen, onClose }: CommitteeMembe
               <img src={member.image || "/placeholder.svg"} alt={member.name} className="h-full w-full object-cover" />
             </div>
             <div className="text-center sm:text-left flex-1">
-              <h3 className="text-2xl font-bold mb-1" style={{ color: "#003262" }}>
-                {member.name}
-              </h3>
+              <h3 className="text-2xl font-bold mb-1 text-berkeley">{member.name}</h3>
               <p className="text-sm text-muted-foreground mb-2">{member.pronouns}</p>
-              <p className="font-semibold mb-1">{member.major}</p>
+              <p className="font-semibold mb-1 text-berkeley">{member.major}</p>
               <p className="text-sm" style={{ color: "#FDB515" }}>
                 {member.classYear}
               </p>
@@ -43,9 +41,7 @@ export function CommitteeMemberModal({ member, isOpen, onClose }: CommitteeMembe
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-3" style={{ color: "#003262" }}>
-              About Me
-            </h4>
+            <h4 className="text-lg font-bold mb-3 text-berkeley">About Me</h4>
             <p className="text-muted-foreground leading-relaxed">{member.bio}</p>
           </div>
 

@@ -176,7 +176,7 @@ export default function FAQPage() {
                 {filteredFAQs.map((category, catIndex) => (
                   <FadeIn key={catIndex} delay={catIndex * 0.1}>
                     <div>
-                      <h2 className="mb-6 text-2xl font-bold" style={{ color: "#003262" }}>
+                      <h2 className="mb-6 text-2xl font-bold text-berkeley">
                         {category.category}
                       </h2>
                       <Accordion type="single" collapsible className="space-y-4">
@@ -187,7 +187,7 @@ export default function FAQPage() {
                             className="border rounded-lg px-6"
                           >
                             <AccordionTrigger className="text-left hover:no-underline">
-                              <span className="font-semibold" style={{ color: "#003262" }}>
+                              <span className="font-semibold text-berkeley">
                                 {item.question}
                               </span>
                             </AccordionTrigger>
@@ -213,8 +213,8 @@ export default function FAQPage() {
             <FadeIn>
               <Card className="border-2">
                 <CardContent className="pt-8 text-center">
-                  <Mail className="mx-auto h-12 w-12 mb-4" style={{ color: "#003262" }} />
-                  <h2 className="mb-4 text-2xl font-bold" style={{ color: "#003262" }}>
+                  <Mail className="mx-auto h-12 w-12 mb-4 icon-berkeley" />
+                  <h2 className="mb-4 text-2xl font-bold text-berkeley">
                     Still Have Questions?
                   </h2>
                   <p className="mb-6 text-muted-foreground leading-relaxed">
