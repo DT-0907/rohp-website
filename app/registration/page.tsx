@@ -105,15 +105,19 @@ export default function RegistrationPage() {
             </FadeIn>
             <FadeIn delay={0.2}>
               <div className="grid gap-4 md:grid-cols-2">
-                <Button variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-transparent">
-                  <Download className="h-6 w-6" />
-                  <span className="font-bold">In-Person Program Waiver</span>
-                  <span className="text-xs text-muted-foreground">PDF - For overnight programs</span>
+                <Button asChild variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-transparent">
+                  <a href="/waivers/2025%20ROHP%20In-Person%20Guest%20Waiver.pdf" download>
+                    <Download className="h-6 w-6" />
+                    <span className="font-bold">In-Person Program Waiver</span>
+                    <span className="text-xs text-muted-foreground">PDF - For overnight programs</span>
+                  </a>
                 </Button>
-                <Button variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-transparent">
-                  <Download className="h-6 w-6" />
-                  <span className="font-bold">Virtual Program Waiver</span>
-                  <span className="text-xs text-muted-foreground">PDF - For virtual programs</span>
+                <Button asChild variant="outline" className="h-auto py-4 flex flex-col gap-2 bg-transparent">
+                  <a href="/waivers/2025%20ROHP%20Virtual%20Guest%20Waiver.pdf" download>
+                    <Download className="h-6 w-6" />
+                    <span className="font-bold">Virtual Program Waiver</span>
+                    <span className="text-xs text-muted-foreground">PDF - For virtual programs</span>
+                  </a>
                 </Button>
               </div>
             </FadeIn>
